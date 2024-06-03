@@ -1,0 +1,14 @@
+name: colorization_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - matplotlib
+  - pillow
+  - scikit-image
+  - torch
+  - torchvision
+  - tqdm
+  - fastai==2.4
+  - gradio
